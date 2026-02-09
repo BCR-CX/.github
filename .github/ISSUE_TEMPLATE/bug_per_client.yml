@@ -1,0 +1,73 @@
+name: Bug por cliente
+description: Relatar Bug por cliente
+title: "[CLIENTE]: <title>"
+labels: ["Bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      placeholder: O time do NOME_CLIENTE abriu o chamado 0000 reportando que todos os templates tiveram seus status alterados.
+    validations:
+      required: true
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Comportamento Atual
+      placeholder: Templates que já estavam aprovados aparecem agora como Pendente.
+    validations:
+      required: true
+  - type: textarea
+    id: expect_behavior
+    attributes:
+      label: Comportamento Esperado
+      placeholder: Templates aprovados devem permanecer com status Aprovado.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto
+      placeholder: Bloqueio ou atraso no uso dos templates
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto / Informações adicionais
+      placeholder: Os templates já haviam passado por todo o fluxo de aprovação.
+    validations:
+      required: false
+  - type: textarea
+    id: bug_reproduce_steps
+    attributes:
+      label: Passos para Reproduzir (se aplicável)
+      placeholder: |
+        1 - Acessar a listagem de templates
+        2 - Verificar templates previamente aprovados
+        3 - Observar que o status atual está como Pendente
+    validations:
+      required: false
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tarefas
+      placeholder: |
+        - Investigar causa raiz da alteração de status
+        - Verificar logs, jobs automáticos ou alterações recentes
+        - Corrigir status dos templates afetados
+    validations:
+      required: false
+  - type: textarea
+    id: reference
+    attributes:
+      label: Referência
+      placeholder: Chamado 0000 do cliente NOME_CLIENTE, LINK_CHAMADO.
+    validations:
+      required: false
+  - type: textarea
+    id: prints
+    attributes:
+      label: Capturas de Tela
+    validations:
+      required: false
