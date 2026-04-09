@@ -31,13 +31,15 @@ resolves #000
 # REQUISITOS PARA O PR
 <!-- Tópico não obrigatório (use para demarcar algumas flags para o PR) -->
 - [ ] Ajuste as Flags referente ao PR (conforme os issues);
-- [ ] Escreva uma boa descrição para o PR, se fizer algo de qualquer jeito, muito provavelmente vai ser recusado;
+- [ ] Escreva uma boa descrição para o PR, se fizer algo de qualquer jeito, muito provavelmente vai e DEVE ser recusado;
 - [ ] Declare se o PR está com os testes atualizados;
 - [ ] Para aprovação, é necessário o CI passar (com algumas exceções);
 - [ ] Utilize as configs de pre-commit antes de subir o PR;
 - [ ] Confira se a sua branch está atualizada com a branch default de repositório;
+- [ ] Não há `*.log`, `print`, `código comentado` ou `dados sensíveis no diff` (Não deixe código comentado e verifique seus commits antes de dar `push`, é exatamento para isso que o git serve).
 
 <!-- 
-Caso algum desses tópicos não sejam marcados, o PR ainda pode ser aprovado, eles apenas funcionam para uma filtragem de qualidade. 
-No fim, sabemos que nem tudo pode ser alcançado, apenas seja objetivo caso algo não esteja nos padrões, e lembre-se LGTM!
+- Caso algum desses tópicos não sejam marcados, o PR ainda pode ser aprovado, eles apenas funcionam para uma filtragem de qualidade.
+- Pode-se retirar essa lista de requisitos também para demonstrar que todos estão ok.
+- No fim, sabemos que nem tudo pode ser alcançado, apenas seja objetivo caso algo não esteja nos padrões, e lembre-se LGTM!
 -->
