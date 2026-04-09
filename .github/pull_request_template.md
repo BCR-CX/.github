@@ -31,7 +31,7 @@ resolves #000
 # REQUISITOS PARA O PR
 <!-- Tópico não obrigatório (use para demarcar algumas flags para o PR) -->
 - [ ] Ajuste as Flags referente ao PR (conforme os issues);
-- [ ] Escreva uma boa descrição para o PR, se fizer algo de qualquer jeito, muito provavelmente vai e DEVE ser recusado;
+- [ ] Escreva uma boa descrição para o PR. Se fizer algo de qualquer jeito, muito provavelmente vai e DEVE ser recusado;
 - [ ] Declare se o PR está com os testes atualizados;
 - [ ] Para aprovação, é necessário o CI passar (com algumas exceções);
 - [ ] Utilize as configs de pre-commit antes de subir o PR;
